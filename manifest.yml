@@ -1,5 +1,5 @@
 applications:
-- name: router
+- name: router-service
   memory: 768M
   instances: 1
   disk_quota: 256M
