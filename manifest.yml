@@ -3,6 +3,6 @@ applications:
   memory: 768M
   instances: 1
   disk_quota: 256M
-  path: target/
+  path: target/${project.artifactId}-${project.version}
   no-route: false
   buildpack: java_buildpack
