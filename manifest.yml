@@ -6,3 +6,5 @@ applications:
   path: target/routing-exec.jar
   no-route: false
   buildpack: java_buildpack
+  env:
+    SPRING_PROFILES_ACTIVE: cloud, development
